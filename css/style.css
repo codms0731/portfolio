@@ -1573,6 +1573,12 @@ span.error {
   .unslate_co--section li:first-child a {
     padding-left: 0; }
 
+/* QR코드 */
+.justify-content-between .chat img {
+  width: 250px;
+  height: auto;
+}
+
 .unslate_co--section.light li a {
   color: #000;
   display: inline-block;
