@@ -545,10 +545,12 @@ a {
     .cover-v1 .container, .cover-v1 .container > .row {
       height: 100vh;
       min-height: 650px; }
+  /* 타이틀 */
   .cover-v1 .heading {
     font-size: 5rem;
     font-weight: 900;
-    color: #ff6b6b; }
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  }
     @media (max-width: 991.98px) {
       .cover-v1 .heading {
         font-size: 3rem; } }
