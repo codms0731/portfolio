@@ -410,7 +410,7 @@ a {
   height: 100vh;
   background: #fff;
   width: 280px;
-  overflow: auto;
+  overflow: visible;
   padding-top: 30px;
   padding-bottom: 70px;
   width: 280px;
@@ -429,7 +429,7 @@ a {
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
     margin-right: 20px;
-    position: fixed; }
+    position: sticky; }
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
