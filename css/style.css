@@ -428,8 +428,8 @@ a {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
-    margin-right: 20px; 
-    position: fixed; }/*close 고정하기*/
+    margin-right: 20px; /*close 고정하기*/
+    position: relative; }
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
@@ -438,7 +438,7 @@ a {
         margin-right: 20px;
         color: #000; }
       .unslate_co--site-mobile-menu .close-wrap a .close-times {
-        position: fixed;
+        position: relative;
         margin-top: 4px;
         right: 0; }
         .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1, .unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
