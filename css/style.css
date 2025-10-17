@@ -429,7 +429,7 @@ a {
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
     margin-right: 20px; /*close 고정하기*/
-    position: fixed; } /*relative*/
+    position: relative; } 
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
@@ -438,14 +438,14 @@ a {
         margin-right: 20px;
         color: #000; }
       .unslate_co--site-mobile-menu .close-wrap a .close-times {
-        position: fixed;/*relative*/
+        position: relative;
         margin-top: 4px;
         right: 0; }
         .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1, .unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
           width: 2px;
           height: 20px;
           background: #000;
-          position: fixed; } /*absolute*/
+          position: absolute; } 
         .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1 {
           -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
@@ -1191,7 +1191,7 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: sticky; /*absolute*/
+  position: absolute;
   top: -10px;
   cursor: pointer;
   z-index: 9;
@@ -1208,7 +1208,7 @@ figure.dotted-bg {
     top: 25px;
     right: -10px;
     width: 150px;
-    position: sticky;
+    position: absolute;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
