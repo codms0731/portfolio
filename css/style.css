@@ -1191,7 +1191,7 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: absolute;
+  position: sticky; /*absolute*/
   top: -10px;
   cursor: pointer;
   z-index: 9;
@@ -1208,7 +1208,7 @@ figure.dotted-bg {
     top: 25px;
     right: -10px;
     width: 150px;
-    position: absolute;
+    position: sticky;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
