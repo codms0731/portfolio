@@ -429,7 +429,7 @@ a {
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
     margin-right: 20px; /*close 고정하기*/
-    position: sticky; }
+    position: sticky; } /*relative*/
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
@@ -445,7 +445,7 @@ a {
           width: 2px;
           height: 20px;
           background: #000;
-          position: absolute; }
+          position: sticky; } /*absolute*/
         .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1 {
           -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
