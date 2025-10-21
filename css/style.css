@@ -1191,7 +1191,7 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: absolute;
+  position: fixed;
   top: -10px;
   cursor: pointer;
   z-index: 9;
@@ -1578,8 +1578,9 @@ span.error {
 
 /* QR코드 */
 .justify-content-between .chat img {
-  width: 250px;
+  width: 300px;
   height: auto;
+  
 }
 
 .unslate_co--section.light li a {
@@ -1590,6 +1591,8 @@ span.error {
   position: relative;
   border-radius: 50%;
   background: #f8f9fa; } 
+
+
 
  /* 비디오  */
 #home-section {
