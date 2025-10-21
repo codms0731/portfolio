@@ -1191,7 +1191,7 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: fixed;
+  position: absolute;
   top: -10px;
   cursor: pointer;
   z-index: 9;
@@ -1591,8 +1591,6 @@ span.error {
   position: relative;
   border-radius: 50%;
   background: #f8f9fa; } 
-
-
 
  /* 비디오  */
 #home-section {
