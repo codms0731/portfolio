@@ -429,7 +429,9 @@ a {
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
     margin-right: 20px; /*close 고정하기*/
-    position: relative; } 
+    position: -webkit-sticky;
+    position: sticky;
+    ; } 
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
