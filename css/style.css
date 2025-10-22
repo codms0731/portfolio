@@ -1194,8 +1194,7 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   top: -10px;
   cursor: pointer;
   z-index: 9;
