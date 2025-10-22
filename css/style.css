@@ -429,9 +429,7 @@ a {
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
     margin-right: 20px; /*close 고정하기*/
-    position: -webkit-sticky;
-    position: sticky;
-    ; } 
+    position: relative; } 
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
       .unslate_co--site-mobile-menu .close-wrap a:hover {
@@ -1196,7 +1194,8 @@ figure.dotted-bg {
   display: none; }
 
 .unslate_co--close-portfolio {
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   top: -10px;
   cursor: pointer;
   z-index: 9;
