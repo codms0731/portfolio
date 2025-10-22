@@ -1163,6 +1163,9 @@ figure.dotted-bg {
   .contact-info-v1 {
     text-align: center; } }
 
+.contact-info-v1 {
+  margin-left: 30%;
+}    
 .contact-info-v1 > div {
   margin-bottom: 30px; }
 
@@ -1175,7 +1178,10 @@ figure.dotted-bg {
 
 .contact-info-v1 .contact-info-val {
   font-size: 20px;
-  color: #000; }
+  color: #000;
+  }
+
+
 
 .portfolio-single-inner .heading-portfolio-single-h2 {
   margin-bottom: 40px;
@@ -1382,7 +1388,7 @@ span.error {
   letter-spacing: .1rem;
   color: rgba(255, 255, 255, 0.5); }
 
-.unslate_co--sticky {
+.unslate_co--sticky, .close-wrap {
   position: -webkit-sticky;
   position: sticky;
   top: 80px; }
@@ -1580,7 +1586,6 @@ span.error {
 .justify-content-between .chat img {
   width: 300px;
   height: auto;
-  
 }
 
 .unslate_co--section.light li a {
