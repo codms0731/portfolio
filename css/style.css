@@ -428,7 +428,7 @@ a {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
   .unslate_co--site-mobile-menu .close-wrap {
-    margin-right: 20px; /*close 고정하기*/
+    margin-right: 20px; 
     position: relative; } 
     .unslate_co--site-mobile-menu .close-wrap a {
       margin-right: 15px; }
@@ -1166,7 +1166,8 @@ figure.dotted-bg {
 
 .contact-info-v1 > div {
   margin-bottom: 30px;
-  margin-top: 25px;  }
+  margin-top: 25px; 
+   }
 
 .contact-info-v1 .contact-info-label {
   font-size: 11px;
@@ -1564,7 +1565,8 @@ span.error {
       transform: translateX(-100%); }
 
 .gsap-reveal-img {
-  line-height: 0; }
+  line-height: 0;
+  border-radius: 25px; } /*img box*/
   .gsap-reveal-img .reveal-wrap {
     position: relative;
     overflow: hidden; }
@@ -1624,8 +1626,8 @@ span.error {
 .justify-content-between .chat img {
   width: 300px;
   height: auto;
-
 }
+
 
 .unslate_co--section.light li a {
   color: #000000;
