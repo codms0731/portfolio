@@ -443,7 +443,7 @@ var portfolioItemClick = function() {
 			loadPortfolioSinglePage(id, href);
 		}, 100);
 
-		//e.preventDefault(); 이 부분 주석처리 해야 상세페이지가 다른 페이지로 open
+		e.preventDefault(); //이 부분 주석처리 해야 상세페이지가 다른 페이지로 open
 
 	});
 
