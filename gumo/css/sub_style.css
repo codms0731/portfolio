@@ -1,0 +1,202 @@
+/* 기본 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+ul,ol,li{list-style: none;}
+
+body {
+  font-family: 'Paperlogy', sans-serif; 
+  color: #202020;
+  background-color: #fff;
+}
+img{vertical-align: top;}
+
+/* 헤더 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav {
+  font-size: 20px;
+  display: flex;
+  margin-top: 80px;
+  gap: 80px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.nav a:hover{
+  color:#e85425;
+}
+
+/*버튼 섹션*/
+.button {
+  background-color: #e85425;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  border:1px solid #e85425;
+  color:#e85425;
+  background-color: #fff;
+}
+
+/* 메인 비쥬얼 */
+.main {
+  width: 1920px;
+  height: 720px;
+  background-image: url(../img/image/sub-bg-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.main-text h2 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.main-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+/*Best 섹션*/
+.attraction {
+  padding: 80px 0;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  font-size: 2rem;  
+  margin-left: 270px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.attraction-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px 36px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.attraction-item {
+  width: 440px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.attraction-item img {
+  width: 100%;
+  height: 298px;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+  
+}
+
+
+.attraction-item h2{
+  font-size: 24px;
+  color: #ff501b;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.attraction-item p {
+  margin-top: 4px;
+  font-size: 20px;
+  text-align: left;
+  color: #333;
+}
+
+/*푸터 섹션*/
+
+footer {
+  width: 100%;
+  height: 348px;
+  background-color: #303030;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 37px 96px 0 96px; 
+  box-sizing: border-box;
+}
+
+footer .left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: flex-start; 
+  gap: 20px; 
+}
+footer .copy {
+  text-align: left;
+  line-height: 1.6;
+}
+
+footer .copy p {
+  margin-bottom: 6px; 
+}
+
+
+footer .sns {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+  padding: 0;
+  flex-direction: row;    
+  gap: 10px;
+  margin-top: 35px;
+  padding: 0;
+}
+
+footer .sns a img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  
+}
+
+footer .any {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+}
+
+footer .any img {
+  width: 220px;
+  height: 220px;
+}
